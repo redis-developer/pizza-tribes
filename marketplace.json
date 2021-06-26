@@ -1,12 +1,11 @@
 {
     "app_name": "Pizza Tribes",
-    "description": "A multiplayer persistent browser-based clicker real-time strategy game.",
-    "hidden": "true",
-    "rank": "20",
+    "description": "A Multiplayer persistent browser-based clicker real-time strategy game powered with RedisJSON + RedisTimeSeries",
+    "rank": "98",
     "type": "Full App",
     "contributed_by": "Community",
-    "repo_url": "https://github.com/fnatte/pizza-tribes",
-    "download_url": "https://github.com/fnatte/pizza-tribes/archive/refs/heads/main.zip",
+    "repo_url": "https://github.com/redis-developer/pizza-tribes",
+    "download_url": "https://github.com/redis-developer/pizza-tribes/archive/refs/heads/main.zip",
     "hosted_url": "https://pizzatribes.teus.dev",
     "quick_deploy": "false",
     "deploy_buttons": [],
@@ -20,5 +19,5 @@
     "youtube_url": "https://youtu.be/xVbdLyBARvA",
     "special_tags": ["Hackathon"],
     "verticals": [],
-    "markdown": "https://raw.githubusercontent.com/fnatte/pizza-tribes/main/README.md"
+    "markdown": "https://raw.githubusercontent.com/redis-developer/pizza-tribes/main/README.md"
 }
