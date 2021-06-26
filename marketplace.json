@@ -7,8 +7,18 @@
     "repo_url": "https://github.com/redis-developer/pizza-tribes",
     "download_url": "https://github.com/redis-developer/pizza-tribes/archive/refs/heads/main.zip",
     "hosted_url": "https://pizzatribes.teus.dev",
-    "quick_deploy": "false",
-    "deploy_buttons": [],
+    "quick_deploy": "true",
+    "deploy_buttons": [
+        {
+            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/pizza-tribes.git" 
+        },
+        {
+            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/pizza-tribes.git" 
+        }
+    ],
+    
+    
+    
     "language": ["Go", "TypeScript"],
     "redis_commands": ["GET","SET","JSON.SET","JSON.GET", "JSON.NUMINCRBY", "JSON.ARRPOP", "JSON.ARRAPPEND", "JSON.ARRTRIM", "TS.CREATE", "TS.INFO", "TS.ADD", "TS.RANGE", "BLPOP", "RPUSH", "WATCH", "EXEC", "HGET", "HMGET", "HSET", "ZREM", "ZRANGE"],
     "redis_features": [],
