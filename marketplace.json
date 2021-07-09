@@ -22,12 +22,12 @@
     "language": ["Go", "TypeScript"],
     "redis_commands": ["GET","SET","JSON.SET","JSON.GET", "JSON.NUMINCRBY", "JSON.ARRPOP", "JSON.ARRAPPEND", "JSON.ARRTRIM", "TS.CREATE", "TS.INFO", "TS.ADD", "TS.RANGE", "BLPOP", "RPUSH", "WATCH", "EXEC", "HGET", "HMGET", "HSET", "ZREM", "ZRANGE"],
     "redis_features": [],
-    "redis_modules": ["RediJSON", "RedisTimeseries"],
+    "redis_modules": ["RedisJSON", "RedisTimeSeries"],
     "app_image_urls": [
         "https://github.com/fnatte/pizza-tribes/raw/main/webapp/images/logo-wide.png"
     ],
     "youtube_url": "https://www.youtube.com/watch?v=xVbdLyBARvA",
     "special_tags": ["Hackathon"],
-    "verticals": [],
+    "verticals": ["Technology"],
     "markdown": "https://raw.githubusercontent.com/redis-developer/pizza-tribes/main/README.md"
 }
