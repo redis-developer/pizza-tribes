@@ -7,7 +7,7 @@
     "repo_url": "https://github.com/redis-developer/pizza-tribes",
     "download_url": "https://github.com/redis-developer/pizza-tribes/archive/refs/heads/main.zip",
     "hosted_url": "https://pizzatribes.teus.dev",
-    "quick_deploy": "true",
+    "quick_deploy": "false",
     "deploy_buttons": [
         {
             "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/pizza-tribes.git" 
