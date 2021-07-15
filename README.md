@@ -2,10 +2,7 @@
 
 <img src="https://github.com/fnatte/pizza-tribes/raw/main/webapp/images/logo-wide.png" width="400" />
 
-**Play at: https://pizzatribes.teus.dev**
 
-This project is aimed to be registered for [RedisConf 2021
-Hackathon](https://hackathons.redislabs.com/hackathons/build-on-redis-hackathon).
 
 
 *Pizza Tribes* is a multiplayer persistent browser-based clicker real-time
