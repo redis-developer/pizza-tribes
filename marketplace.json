@@ -6,6 +6,7 @@
     "hidden": "true",
     "contributed_by": "Community",
     "repo_url": "https://github.com/redis-developer/pizza-tribes",
+    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/pizza-tribes/master/images/app_preview_image.png",
     "download_url": "https://github.com/redis-developer/pizza-tribes/archive/refs/heads/main.zip",
     "hosted_url": "https://pizzatribes.teus.dev",
     "quick_deploy": "false",
