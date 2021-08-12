@@ -3,7 +3,6 @@
     "description": "A Multiplayer persistent browser-based clicker real-time strategy game powered with RedisJSON + RedisTimeSeries",
     "rank": "98",
     "type": "Full App",
-    "hidden": "true",
     "contributed_by": "Community",
     "repo_url": "https://github.com/redis-developer/pizza-tribes",
     "preview_image_url": "https://raw.githubusercontent.com/redis-developer/pizza-tribes/master/images/app_preview_image.png",
