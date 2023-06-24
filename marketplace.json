@@ -1,6 +1,6 @@
 {
     "app_name": "Pizza Tribes",
-    "description": "A Multiplayer persistent browser-based clicker real-time strategy game powered with RedisJSON + RedisTimeSeries",
+    "description": "A Multiplayer persistent browser-based clicker real-time strategy game powered with Redis JSON and Time Series",
     "rank": 98,
     "type": "Full App",
     "contributed_by": "Community",
@@ -11,19 +11,19 @@
     "quick_deploy": "false",
     "deploy_buttons": [
         {
-            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/pizza-tribes.git" 
+            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/pizza-tribes.git"
         },
         {
-            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/pizza-tribes.git" 
+            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/pizza-tribes.git"
         }
     ],
-    
-    
-    
+
+
+
     "language": ["Go", "TypeScript"],
     "redis_commands": ["GET","SET","JSON.SET","JSON.GET", "JSON.NUMINCRBY", "JSON.ARRPOP", "JSON.ARRAPPEND", "JSON.ARRTRIM", "TS.CREATE", "TS.INFO", "TS.ADD", "TS.RANGE", "BLPOP", "RPUSH", "WATCH", "EXEC", "HGET", "HMGET", "HSET", "ZREM", "ZRANGE"],
-    "redis_features": [],
-    "redis_modules": ["RedisJSON", "RedisTimeSeries"],
+    "redis_use_cases": [],
+    "redis_features": ["JSON", "Time Series"],
     "app_image_urls": [
         "https://github.com/fnatte/pizza-tribes/raw/main/webapp/images/logo-wide.png"
     ],
