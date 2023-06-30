@@ -38,7 +38,7 @@ The `user_id` can be looked up using the username via `username:{username}`.
 
 ## Game State
 
-The user game state is stored as a JSON value (using RedisJSON) in key `user:{user_id}:gamestate` with the following structure:
+The user game state is stored as a JSON value (using Redis JSON) in key `user:{user_id}:gamestate` with the following structure:
 
 ```json
 {
@@ -145,7 +145,7 @@ When the game state has been updated we must also schedule the next one:
 
 ### Insert Data Points (Timeseries)
 
-The RedisTimeseries module is used to track the changes in user resources. The resources are tracked using the following keys:
+TheRedis Time Series module is used to track the changes in user resources. The resources are tracked using the following keys:
 
 - `user:c2e19af8q04s73f8j8lg:ts_coins`
 - `user:c2e19af8q04s73f8j8lg:ts_pizzas`
@@ -181,4 +181,3 @@ When any user wants to take a look at the leaderboard, the data is retrieved lik
 ```
 ZREVRANGE leaderboard 0 20 WITHSCORES
 ```
-
